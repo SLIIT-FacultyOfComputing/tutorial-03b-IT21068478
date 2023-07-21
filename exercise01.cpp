@@ -15,7 +15,7 @@ int main() {
 #include<iomanip>
 using namespace std;
 int main() {
-    float marks[] = {78.4, 90.6, 45.9, 722.2, 544.4};
+    float marks[] = {78.4, 90.6, 457.9, 72.2, 544.4};
     char names[][20] = {"Ajith", "Wimal", "Kanthi", "Suranji", "Kushmitha"};
     
     cout << setw( 5 ) << "No" << setw( 15 ) << "Name" << setw( 10 ) << setiosflags ( ios :: fixed) << setprecision ( 2 ) << "Marks" << endl;
